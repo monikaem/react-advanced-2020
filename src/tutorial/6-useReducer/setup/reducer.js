@@ -6,7 +6,7 @@ export const reducer = (state, action) => {
             people: newPeople,
             isModalOpen: true,
             modalContent: 'item added'}
-    }; if (action.type === 'NO_VALUE') {
+    };if (action.type === 'NO_VALUE') {
         return {
             ...state,
             isModalOpen: true,
